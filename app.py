@@ -10,6 +10,10 @@ HUB_MODEL = hub.load(
 
 st.set_page_config(layout='wide')
 st.title('Style Transfer')
+st.text(
+    'This app uses a trained deep learning model to convert an image '
+    '(the "Base Image") into the style of another (the "Style Image")'
+)
 col1, col2, col3 = st.columns(spec=3, gap='medium')
 
 
